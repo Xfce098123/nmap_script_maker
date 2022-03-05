@@ -1,0 +1,25 @@
+print("          :================:")
+print("         /||# nmap -A _   ||")
+print("        / ||              ||")
+print("       |  ||              ||")
+print("        \ ||              ||")
+print("          ==================")
+print("   ........... /      \.............")
+print("   :\        ############            ")
+print("   : ---------------------------------")
+print("   : |  *   |__________|| ::::::::::  |")
+print("   \ |      |          ||   .......   |")
+print("     --------------------------------- 8")
+
+
+print("skid guide to nmap")
+print("if you want a option, write it out, not yes/no")
+print("")
+print("")
+
+saved_S = input ("what type of scan? (tcp(T),version(V),SYN(S) ): \n")
+saved_p = input("do you want -Pn(scan for only open ports and if not open leaves): \n")
+saved_port = input ("do you want a specified port?(if yes put '-p ***')")
+saved_ip_adress = input ("whats the ip adress?: \n")
+
+print("sudo nmap -s" + saved_S + " " + saved_p + " " + " " + saved_port + " " + saved_ip_adress)
